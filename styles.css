@@ -1,14 +1,12 @@
 ul {
     margin-left: 30%;
+    list-style: none;
 }
 
 h1 {
     text-align: center;
     font-weight: 900;
     font-size: 2.5em;
-}
-
-.link-pic {
 }
 
 img {
@@ -44,7 +42,7 @@ html {
 }
 
 p {
-    display: block;
+    display: flex;
     margin-left: 10%;
     margin-right: 9%;
 }
@@ -54,13 +52,11 @@ h2 {
 }
 
 .ingredients {
-    display: block;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: auto;
+    text-align: center;
 }
 
 ol {
-    display: block;
     margin-left: 10%;
     margin-right: 9%;
 }
